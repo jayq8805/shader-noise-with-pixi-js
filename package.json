@@ -1,0 +1,22 @@
+{
+  "name": "live-canvas",
+  "version": "1.0.0",
+  "source": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "2.6.2",
+    "@parcel/transformer-sass": "2.6.2",
+    "parcel": "^2.6.2",
+    "querystring-es3": "^0.2.1"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0",
+    "pixi-filters": "^4.1.6",
+    "pixi-stats": "^1.0.7",
+    "pixi.js": "^6.4.2"
+  }
+}
